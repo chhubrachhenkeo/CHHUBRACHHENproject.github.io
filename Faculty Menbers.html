@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Science and Technology</title>
+    <link rel="icon" type="image/x-con" href="images/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        table,th,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: rgb(245, 242, 246);
+             }
+             
+             body{
+        ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+                 overflow: hidden;
+                 background-color: #0812cf;
+            }
+
+        li {
+                 float: left;
+            }
+
+        li a, .dropbtn {
+                 display: inline-block;
+                 color: white;
+                 text-align: center;
+                 padding: 15px 18px;
+                 text-decoration: none;
+            }
+
+        li a:hover, .dropdown:hover .dropbtn {
+                 background-color: rgb(23, 149, 38);
+            }
+
+        li.dropdown {
+                 display: inline-block;
+            }
+
+        .dropdown-content {
+                 display: none;
+                 position: absolute;
+                 background-color: #f9f9f9;
+                 min-width: 160px;
+                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                 z-index: 1;
+            }
+
+        .dropdown-content a {
+                 color: black;
+                 padding: 12px 16px;
+                 text-decoration: none;
+                 display: block;
+                 text-align: left;
+            }
+
+        .dropdown-content a:hover {background-color: #f0eeee;}
+
+        .dropdown:hover .dropdown-content {
+                 display: block;}
+ }
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #0812cf;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #edc205;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(16, 28, 254, 0.97);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}  
+        </style>
+</head>
+<body>
+    <center>
+        <img src="images/cost.jpg" width="330px" height="120px">
+        <h1 style="font-size: 20px;font-family: Khmer M1;">គ្រូបង្រៀន មហាវិទ្យាល័យវិទ្យាសាស្រ្ត និងបច្ចេកវិទ្យា</h1>
+    </center>
+    <table style="width:100%">
+
+        <tr>
+            <th style="background-color: rgb(33, 88, 250); color: white;">N<sup>0</sup></th>
+            <th style="background-color: rgb(33, 88, 250);color: white;">Name</th>
+            <th style="background-color: rgb(33, 88, 250);color: white;">Photo</th>
+            <th style="background-color: rgb(33, 88, 250);color: white;">Tel</th>
+            <th style="background-color: rgb(33, 88, 250);color: white;">Courses</th>
+        </tr>
+        <tr>
+             <td><center>01</center></td>
+             <td><center><strong>Teav Chhunnan</strong></center></td>
+             <td><center><img src="images/Teav Chhunnan.png" width="50px" height="60px"></center></td>
+             <td><center>093777552@cost_uc</center></td>
+             <td><center>Basic ITE101, HTML, CSS, Repairing, Cisco network</center></td>
+        </tr>
+        <tr>
+             <td><center>02</center></td>
+             <td><center><strong>Nhanh Nhim</strong></center></td>
+             <td><center><img src="images/Nhanh Nhim.png" width="50px" height="60px"></center></td>
+             <td><center>070295027@Nhanh_Nhim</center></td>
+             <td><center>Basic ITE101, Graphic, UI/UX, C++, Java</center></td>
+       </tr>
+       <tr>
+             <td><center>03</center></td>
+             <td><center><strong>Y Sokha</strong></center></td>
+             <td><center><img src="images/Y Sokha.png" width="50px" height="60px"></center></td>
+             <td><center>077211988@YSokha</center></td>
+             <td><center>ITE101, BUS202</center></td>
+       </tr>
+       <tr>
+             <td><center>04</center></td>
+             <td><center><strong>Dan Tangoun</strong></center></td>
+             <td><center><img src="images/Dan Tangoun.png" width="50px" height="60px"></center></td>
+             <td><center>077339964@dantangoun</center></td>
+             <td><center>ITE101, Web, JavaScript, PHP, Python</center></td>
+       </tr>
+       <tr>
+             <td><center>05</center></td>
+             <td><center><strong>Chhay Buntha</strong></center></td>
+             <td><center><img src="images/Chhay Buntha.png" width="50px" height="60px"></center></td>
+             <td><center>078428214@ChBuntha</center></td>
+             <td><center>Repair, Cisco Network</center></td>
+       </tr>
+       <tr>
+             <td><center>06</center></td>
+             <td><center><strong>Chhoeung Ranya</strong></center></td>
+             <td><center></center></td>
+             <td><center>010914193@RanyaPhD</center></td>
+             <td><center>ITE101, Web, HTML, CSS, PHP, Java,</center></td>
+       </tr>
+       <tr>
+             <td><center>07</center></td>
+             <td><center><strong>Mork Ratha</strong></center></td>
+             <td><center></center></td>
+             <td><center>017307327D</center></td>
+             <td><center>Java, JavaScript, database, web</center></td>
+      </tr>
+      <tr>
+             <td><center>08</center></td>
+             <td><center><strong>Sokun Prosith</strong></center></td>
+             <td><center><img src="images/Sokun Prosith.png" width="50px" height="60px"></center></td>
+             <td><center>017431186@username85517431186</center></td>
+             <td><center>ITE101K, HTM,CSS, Java</center></td>
+      </tr>
+      <tr>
+             <td><center>09</center></td>
+             <td><center><strong>Tim Simatre</strong></center></td>
+             <td><center><img src="images/Tim Simatre.png" width="50px" height="60px"></center></td>
+             <td><center>0963777141@timsimatre</center></td>
+             <td><center>ITE101K</center></td>
+      </tr>
+      <tr>
+             <td><center>10</center></td>
+             <td><center><strong>Vichhaiy Serey</strong></center></td>
+             <td><center><img src="images/Vichhaiy Serey.png" width="50px" height="60px"></center></td>
+             <td><center>015370170@vichhaiyserey</center></td>
+             <td><center>Cyber, AI, DevOps, Data Mining, Data Science</center></td>
+      </tr>
+      <tr>
+             <td><center>11</center></td>
+             <td><center><strong>Un Virak</strong></center></td>
+             <td><center><img src="images/Un Virak.png" width="50px" height="60px"></center></td>
+             <td><center>012 717261 @virakuhs</center></td>
+             <td><center>Java, Database, Mobile App, Web</center></td>
+      </tr>
+      <tr>
+             <td><center>12</center></td>
+             <td><center><strong>Sann Sophar</strong></center></td>
+             <td><center></center></td>
+             <td><center>016801119 @sopharwind</center></td>
+             <td><center>C++, Java, Database SQL, Web</center></td>
+      </tr>
+      <tr>
+             <td><center>13</center></td>
+             <td><center><strong>Prak Samrith</strong></center></td>
+             <td><center><img src="images/Prak Samrith.png" width="50px" height="60px"></center></td>
+             <td><center>098795357 @praksamrith_kh</center></td>
+             <td><center>Mobile App, Web, Database</center></td>
+      </tr>
+      <tr>
+             <td><center>14</center></td>
+             <td><center><strong>Yann Soursdey</strong></center></td>
+             <td><center><img src="images/Yann Soursdey.png" width="50px" height="60px"></center></td>
+             <td><center>010265668</center></td>
+             <td><center>Database, HTML, CSS, Web, Digital Marketing</center></td>
+      </tr>
+      <tr>
+             <td><center>15</center></td>
+             <td><center><strong>Yoeung Vibol</strong></center></td>
+             <td><center><img src="images/Yoeung Vibol.png" width="50px" height="60px"></center></td>
+             <td><center>093910871 @vibolyoeung</center></td>
+             <td><center>Web CSS, JavaScript, PHP, Android</center></td>
+      </tr>
+      <tr>
+             <td><center>16</center></td>
+             <td><center><strong>Pakrigna Long</strong></center></td>
+             <td><center><img src="images/Pakrigna Long.png" width="50px" height="60px"></center></td>
+             <td><center>010644496 @Pakrigna</center></td>
+             <td><center>Python, AI/ML, Sensors, embedded systems</center></td>
+      </tr>
+      <tr>
+             <td><center>17</center></td>
+             <td><center><strong>Long Sothea</strong></center></td>
+             <td><center><img src="images/Long Sothea.png" width="50px" height="60px"></center></td>
+             <td><center>012252730 @IntgSIS</center></td>
+             <td><center>Web CSS, JavaScript, PHP, ASP, C#, Database</center></td>
+      </tr>
+      <tr>
+             <td><center>18</center></td>
+             <td><center><strong>Hang Youlay</strong></center></td>
+             <td><center><img src="images/Hang Youlay.png" width="50px" height="60px"></center></td>
+             <td><center>096 865 0464, @Youlayhang</center></td>
+             <td><center>C++, Database, Programming, Android</center></td>
+      </tr>
+
+      <tr>
+             <td><center>19</center></td>
+             <td><center><strong>Noun Ngoeun</strong></center></td>
+             <td><center></center></td>
+             <td><center>092847188 @noun_ngoeun092</center></td>
+             <td><center>PHP, .NET,SQL, AI</center></td>
+      </tr>
+      <tr>
+             <td><center>20</center></td>
+             <td><center><strong>Tonn Daroth</strong></center></td>
+             <td><center></center></td>
+             <td><center>093 522 272@Tonnsaroth</center></td>
+             <td><center>ITE101K</center></td>
+      </tr>
+      <tr>
+             <td><center>21</center></td>
+             <td><center><strong>Phon Sopheap</strong></center></td>
+             <td><center><img src="images/Phon Sopheap.png" width="50px" height="60px"></center></td>
+             <td><center>093 662 016</center></td>
+             <td><center>Network Cisco, Server, Linux, Security, Repairing</center></td>
+     </tr>
+     <tr>
+             <td><center>22</center></td>
+             <td><center><strong>Chhoy Seila</strong></center></td>
+             <td><center><img src="images/Chhoy Seila.png" width="50px" height="60px"></center></td>
+             <td><center>93 777 599@Seilac</center></td>
+             <td><center>Network Cisco, Server, Linux, Security,AI/ML</center></td>
+     </tr>
+     <tr>
+             <td><center>23</center></td>
+             <td><center><strong>Chan Rachna</strong></center></td>
+             <td><center></center></td>
+             <td><center>070707670</center></td>
+             <td><center>ITE101, Graphic, Digital Media</center></td>
+     </tr>
+     <tr>
+             <td><center>24</center></td>
+             <td><center><strong>Meas Sovann</strong></center></td>
+             <td><center><img src="images/Meas Sovann.png" width="50px" height="60px"></center></td>
+             <td><center>015539166@sovannhi</center></td>
+             <td><center>Web CSS, JavaScript, PHP</center></td>
+     </tr>
+     <tr>
+             <td><center>25</center></td>
+             <td><center><strong>Dr.Lypengleang</strong></center></td>
+             <td><center><img src="images/Dr.Lypengleang.png" width="50px" height="60px"></center></td>
+             <td><center>016799912@lypengleang</center></td>
+             <td><center>Database, .NET</center></td>
+     </tr>
+     <tr>
+             <td><center>26</center></td>
+             <td><center><strong>Sreang Kosal</strong></center></td>
+             <td><center><img src="images/Sreang Kosal.png" width="50px" height="60px"></center></td>
+             <td><center></center></td>
+             <td><center>Database</center></td>
+     </tr>
+     <tr>
+             <td><center>27</center></td>
+             <td><center><strong>Long Nipaul</strong></center></td>
+             <td><center><img src="images/Long Nipaul.png" width="50px" height="60px"></center></td>
+             <td><center>078292701@nipaullong</center></td>
+             <td><center>Database, Web, Mobile App</center></td>
+     </tr>
+    </table>
+</body>
+<footer class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col">
+                   <h4>Get in Touch</h4>
+                   <ul>
+                       <li><a href="index.html">Phone: (855-23) 993 274, <br> 993 276, (855-6-) 333 346</a></li>
+                       <li><a href="https://uc.edu.kh/"> URL: <URL:link>https://uc.edu.kh/</URL:link></a></li>
+                       <li><a href="#">Email: cost@uc.edu.kh</a></li>
+                   </ul>
+               </div>
+               <div class="footer-col">
+                   <h4>Facilities & Resources</h4>
+                   <ul>
+                       <li><a href="https://library.uc.edu.kh/">The Toshu Fukami Library & E-Library</a></li>
+                       <li><a href="https://uc.edu.kh/ucb/facility/9/44/">The University of Cambodia Press</a></li>
+                       <li><a href="https://uc.edu.kh/ucb/facility/9/45/">UC Catalogs</a></li>
+                       
+                   </ul>
+               </div>
+               
+               
+               <div class="footer-col">
+                  
+                   <h4>follow us</h4>
+                   <div class="social-links">
+                       <a href="https://web.facebook.com/universityofcambodia"><i class="fab fa-facebook-f"></i></a>
+                       <a href="https://www.instagram.com/theuniversityofcambodia/"><i class="fab fa-instagram"></i></a>
+                       <a href="https://kh.linkedin.com/company/theuniversityofcambodia"><i class="fab fa-linkedin-in"></i></a>
+                   </div>
+               
+               </div>
+          
+           </div>
+       </div>
+   </footer> 
+</html>
